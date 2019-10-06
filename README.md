@@ -62,6 +62,7 @@ This class allows specifying the following parameter:
    * `manage_users_deny` - optional - defaults to false, whether to manage `/etc/cron.deny`
    * `users_allow` - optional - An array of users to add to `/etc/cron.allow`
    * `users_deny` - optional - An array of users to add to `/etc/cron.deny`
+   * `merge` - optional - default to "hash"
 
 
 Examples:
